@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Hanalei|Roboto&display=swap");
+body {
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Hanalei";
+  font-size: 22px;
+}
+#display {
+  font-size: 30px;
+  background-color: #ffeedd;
+}
+#pad-elements {
+  background-color: #ffeedd;
+  border: 1px solid #fed766;
+  /* background-color: rgb(184, 179, 179); */
+  position: relative;
+  top: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.drum-pad {
+  display: inline-block;
+  width: 15%;
+  height: 60px;
+  font-family: "Roboto", Georgia, "Times New Roman", Times, serif;
+  background-color: #f9caa7;
+  border: 3px outset #f9caa7;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  margin: 25px 0px 25px 100px;
+  cursor: pointer;
+}
+
+#display {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+  height: 40px;
+  width: 30%;
+  text-align: center;
+}
+
+.drum-pad:hover {
+  background-color: #fff;
+  border: 3px inset #f9caa7;
+}
